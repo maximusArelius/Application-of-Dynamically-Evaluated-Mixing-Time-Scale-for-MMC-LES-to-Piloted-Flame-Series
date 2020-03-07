@@ -7,4 +7,3 @@ baf.tex
 b896.html
 b275.tex
 699.html
-60ru20qtojk.html
