@@ -2,7 +2,6 @@ abstract.html
 13191.tex
 5jjme1jjb2.tex
 0k8l0sg55d8.tex
-figures/1.5_Kipp1
 baf.tex
 11a8b.html
 13dcb.tex
