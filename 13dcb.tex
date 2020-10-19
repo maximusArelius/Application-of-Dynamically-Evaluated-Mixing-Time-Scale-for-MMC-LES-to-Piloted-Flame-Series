@@ -1,18 +1,16 @@
-\begin{table*}
-\caption{\label{tab:table1}Different quantities and qualities of ~$T_{\rm shell}$}
-\begin{center}
-\begin{tabular}{ccccccccc}
-\hline\
-\textbf{Heading}& $r_c$ (km) & $T_{\rm shell}$ (s) & $t_{\rm waves}$ (s) & $\mathcal{M}$ & $\omega_{\rm c}$ (rad/s) & $P_{\rm min}$ (s) & $P_{\rm min,Fe}$ (s) & $P_{\rm min,NS}$ (s) \\
-\hline
-Row & $ 1.6 \times 10^7 $ & $ 4 \times 10^{13}$ & $ 2 \times 10^{5}$ & $0.06$ & $ 3 \times 10^{-6}$ & $ 2 \times 10^{5}$ & $ 40$ & $ 2 \times 10^{-3} $  \\
-\hline
-Row & $ 9.7 \times 10^3$ & $ 3 \times 10^8$ & $ 10^{6}$ & $0.002$ & $ 4 \times 10^{-3}$ & $ 2 \times 10^{3}$ & $ 50$ & $  2.5 \times 10^{-3} $ \\
-\hline
-Row & $ 3.6 \times 10^3$ & $ 4 \times 10^6$ & $ 10^{5}$ & $0.004$ & $ 2 \times 10^{-2}$ & - & - & - \\
-\hline
-Row & $ 1.7 \times 10^3$ & $ 7 \times 10^3$ &  $ 2 \times 10^{3}$ & $0.02$ & $ 4 \times 10^{-1}$ & - & - & - \\
-\hline
-\end{tabular}
-\end{center}
-\end{table*}
+\begin{table}[hbt]
+    \caption{Mixing Time Scale Variation}
+    \centering
+    \begin{tabular}{llr}
+        \toprule
+        \multicolumn{2}{c}{Minor Mixing Time Scale: $\tau_L = C_{L} \frac{\widetilde{f_L'^2} }{\tilde{\chi}_L + \chi^{sgs}_L}$} \\
+        \cmidrule(r){1-2}
+        Time Scale & Description \\
+        \midrule
+        dyn-aISO (or \textit{dynMix}) & dynamic $\nu_{sgs}$, $\widetilde{f_L'^2}$ and $\chi^{sgs}_L$ \\
+        constCf (or \textit{dynTrMix}) & dynamic $\nu_{sgs}$, $\chi^{sgs}_L$, but static $\widetilde{f_L'^2}$ ($C_f=0.1$) \\
+        st-aISO (or \textit{stMix}) & fixed coeff. for $\nu_{sgs}$ ($C_s=0.16$), $\widetilde{f_L'^2}$ ($C_f=0.1$) and $\chi^{sgs}_L$ ($C_d=0.4$) \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:label}
+\end{table}
